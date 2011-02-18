@@ -22,6 +22,24 @@ Installation:
         ...
     )
 
+Put style to the line numbers:
+*Add to the main CSS this block of code and edit what you want:
+------------------------------------------------------------
+/*Code syntax highlighting, code line numbers*/
+div.highlight {
+ margin: 0px 20px;
+}
+div.highlight ol{
+ margin-left: 30px;
+}
+div.highlight li{
+ color: #CECECE;
+}
+div.highlight li div.line{
+ color: #cecece;
+}
+------------------------------------------------------------- 
+
 That's it.
 To change your pygment theme set PYGMENT_THEME variable in settings.py it's set to 'native' by default.
 PYGMENT_THEME = 'my_theme'
@@ -31,7 +49,6 @@ If you are confused:
 * check the examples provided with the app
 * mail me at pawel.suwala (a) fsfe.org 
 
-
-
+ 
 
 
